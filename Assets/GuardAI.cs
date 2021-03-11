@@ -16,6 +16,7 @@ public class GuardAI : MonoBehaviour
 
     GameObject target;
 
+    private Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,7 +45,7 @@ public class GuardAI : MonoBehaviour
         {
             case guardState.Patrol:
                 if (navMeshAgent.remainingDistance < 0.04f)
-                { 
+                {
                     curPosition = (curPosition + 1) % guardRotation.Length;
                     navMeshAgent.SetDestination(guardRotation[curPosition].position);
                 }
