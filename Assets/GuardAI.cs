@@ -65,4 +65,13 @@ public class GuardAI : MonoBehaviour
             SwitchToState(guardState.Pursue);
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            target = other.gameObject;
+            SwitchToState(guardState.Patrol);
+        }
+    }
 }
