@@ -443,3 +443,26 @@ Received Import Request.
 Start importing Assets/ShelfMaterial.mat using Guid(c9512dbe9e77b7d47ac778d1692b1cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1419de2954dbc9158c08501b042472dd') in 0.114738 seconds
   Import took 0.117635 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020330 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.3 MB.
+System memory in use after: 63.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1658.
+Total: 8.977500 ms (FindLiveObjects: 0.296500 ms CreateObjectMapping: 0.092600 ms MarkObjects: 7.591500 ms  DeleteObjects: 0.994400 ms)
+
