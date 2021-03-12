@@ -63,6 +63,7 @@ public class GuardAI : MonoBehaviour
         {
             target = other.gameObject;
             SwitchToState(guardState.Pursue);
+            navMeshAgent.speed = 8;
         }
     }
 
@@ -72,6 +73,7 @@ public class GuardAI : MonoBehaviour
         {
             target = other.gameObject;
             SwitchToState(guardState.Patrol);
+            navMeshAgent.speed = 4;
         }
     }
 }
