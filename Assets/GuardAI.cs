@@ -32,6 +32,7 @@ public class GuardAI : MonoBehaviour
                 break;
             case guardState.Pursue:
                 navMeshAgent.SetDestination(target.transform.position);
+                
                 break;
             default:
                 break;
@@ -63,6 +64,7 @@ public class GuardAI : MonoBehaviour
         {
             target = other.gameObject;
             SwitchToState(guardState.Pursue);
+            navMeshAgent.speed = 8;
         }
     }
 
@@ -72,6 +74,7 @@ public class GuardAI : MonoBehaviour
         {
             target = other.gameObject;
             SwitchToState(guardState.Patrol);
+            navMeshAgent.speed = 3;
         }
     }
 }
