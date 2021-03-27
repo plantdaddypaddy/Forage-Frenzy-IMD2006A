@@ -5,7 +5,7 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
 
-    public float speed = 1f;
+    public float speed = 7f;
     public Vector3 rSpeed;
     public float jPower = 2000;
     Vector3 playerV;
@@ -29,12 +29,14 @@ public class playerMovement : MonoBehaviour
         ground = false;
     }
 
+    
+
     // Update is called once per frame
     void Update()
     {
         CharacterController controller = GetComponent<CharacterController>();
 
-        
+
 
         if (Input.GetKeyDown(KeyCode.Space) && ground)
         {
@@ -58,13 +60,13 @@ public class playerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             Debug.Log("Left");
-            transform.RotateAround(transform.position, Vector3.down, 200 * Time.deltaTime);
+            transform.Translate(speed * Vector3.left * Time.deltaTime);
         }
         
         if (Input.GetKey(KeyCode.D))
         {
             Debug.Log("Right");
-            transform.RotateAround(transform.position, Vector3.up, 200 * Time.deltaTime);
+            transform.Translate(speed * Vector3.right * Time.deltaTime);
         }
     }
 }
