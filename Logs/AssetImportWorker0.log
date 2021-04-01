@@ -237,3 +237,90 @@ Received Import Request.
 Start importing Assets/Final Light.prefab using Guid(ae4e06424766a6442ab51b5a0bcd049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1c0029291e82672baa334fd2dc3faa') in 0.019650 seconds
   Import took 0.022249 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.8 MB.
+System memory in use after: 76.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 2.255300 ms (FindLiveObjects: 0.269300 ms CreateObjectMapping: 0.049500 ms MarkObjects: 1.910000 ms  DeleteObjects: 0.024900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12771.369257 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(7811aab7889c33e48b39d6e330c5e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(7811aab7889c33e48b39d6e330c5e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa8b431404b795402edf1ca9a6a3634') in 0.116990 seconds
+  Import took 0.120125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/MainTerrain.asset
+  artifactKey: Guid(939eed16056206845bd2c88d4b5da796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainTerrain.asset using Guid(939eed16056206845bd2c88d4b5da796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2611dce6bbd2b649bf77fe08458b6f') in 0.050266 seconds
+  Import took 0.053466 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009970 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.8 MB.
+System memory in use after: 76.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 1.982200 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.713300 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.679644 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(6338fe9854fc16d46a68d2374da82ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(6338fe9854fc16d46a68d2374da82ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8ce3f954b9bfb774a08c21989e420b') in 0.030091 seconds
+  Import took 0.032919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.077305 seconds.
+  path: Assets/SlidingDoor 1.prefab
+  artifactKey: Guid(628845b0fbf6f744ca4d0da93056e6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlidingDoor 1.prefab using Guid(628845b0fbf6f744ca4d0da93056e6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f174a7233855c01215a281650c8a48') in 0.085805 seconds
+  Import took 0.088673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.250126 seconds.
+  path: Assets/Final Doors.prefab
+  artifactKey: Guid(628845b0fbf6f744ca4d0da93056e6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final Doors.prefab using Guid(628845b0fbf6f744ca4d0da93056e6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01df5c10fbded7b721b95947b30e397a') in 0.024566 seconds
+  Import took 0.027299 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
