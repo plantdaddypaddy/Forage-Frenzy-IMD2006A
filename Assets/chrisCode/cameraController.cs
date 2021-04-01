@@ -31,14 +31,11 @@ public class cameraController : MonoBehaviour
 
     void camController()
     {
-        if (!pauseMenu.isPaused)
-        {
-            mouseX += Input.GetAxis("Mouse X") * rotSpeed;
-            mouseY -= Input.GetAxis("Mouse Y") * rotSpeed;
-            mouseY = Mathf.Clamp(mouseY, -30, 60);
-            transform.LookAt(target);
-            target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
-            playerFox.rotation = Quaternion.Euler(0, mouseX, 0);
-        }
+        mouseX += Input.GetAxis("Mouse X") * rotSpeed;
+        mouseY -= Input.GetAxis("Mouse Y") * rotSpeed;
+        mouseY = Mathf.Clamp(mouseY, -30, 60);
+        transform.LookAt(target);
+        target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
+        playerFox.rotation = Quaternion.Euler(0, mouseX, 0);
     }
 }
