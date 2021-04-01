@@ -459,3 +459,27 @@ Received Import Request.
 Start importing Assets/chrisPrefabs/depositCollider.prefab using Guid(f68da0561b7b0924c8b9c2deaac489b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d7056c9ed7a6932d67e125c289d2ca') in 0.124859 seconds
   Import took 0.154305 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 229.654085 seconds.
+  path: Assets/Scenes/Dylan.unity
+  artifactKey: Guid(b921164daa6be4648b79d29ebd2702a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dylan.unity using Guid(b921164daa6be4648b79d29ebd2702a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d06dfc69934cd20575118dd67ad8752') in 0.017202 seconds
+  Import took 0.028849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.737350 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(f7b7dac415be55d42bc33ebda0375d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(f7b7dac415be55d42bc33ebda0375d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78fd674419d8d3789197856d4b8ad65') in 0.039034 seconds
+  Import took 0.057835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.645383 seconds.
+  path: Assets/Scenes/Dylan
+  artifactKey: Guid(18c0597bd2174c84bab8ac4c3ff5ac9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dylan using Guid(18c0597bd2174c84bab8ac4c3ff5ac9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb0e2deeba1ea8738d68eb2490ebd6a') in 0.300036 seconds
+  Import took 0.323589 seconds .
+
