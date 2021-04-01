@@ -1,13 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/New Terrain 1.asset.meta
 guid: c9b463da1135cec469b0eb6a664550ff
-NativeFormatImporter:
-=======
-guid: e594d30926935744399dbafe10514869
 PrefabImporter:
->>>>>>> 2ac2243d53fea38216c3aecdec448a4d13a1d493:Assets/chrisPrefabs/PlayerFox2.prefab.meta
   externalObjects: {}
-  mainObjectFileID: 15600000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

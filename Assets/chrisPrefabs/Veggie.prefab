@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7783544739221866446}
   - component: {fileID: 7783544739221866440}
   m_Layer: 0
-  m_Name: Veggie 1
+  m_Name: Veggie
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"near","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!135 &7783544739221866446
 SphereCollider:
