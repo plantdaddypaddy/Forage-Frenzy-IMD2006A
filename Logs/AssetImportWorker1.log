@@ -259,3 +259,75 @@ System memory in use after: 73.8 MB.
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1630.
 Total: 1.662000 ms (FindLiveObjects: 0.149400 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.448800 ms  DeleteObjects: 0.020900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2344.499391 seconds.
+  path: Assets/chrisPrefabs/Shelf_Model Variant.prefab
+  artifactKey: Guid(714f5b69c39566a40bff4e68c9f1d28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chrisPrefabs/Shelf_Model Variant.prefab using Guid(714f5b69c39566a40bff4e68c9f1d28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc4600d57407425ec623fcaa4e81085') in 0.584673 seconds
+  Import took 0.593021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.519678 seconds.
+  path: Assets/chrisPrefabs/Shelf_Model2.prefab
+  artifactKey: Guid(714f5b69c39566a40bff4e68c9f1d28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chrisPrefabs/Shelf_Model2.prefab using Guid(714f5b69c39566a40bff4e68c9f1d28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b608834425b296613d59f67460b0b1') in 0.258613 seconds
+  Import took 0.312987 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.054577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 21.837 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.9 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1639.
+Total: 13.312200 ms (FindLiveObjects: 4.668700 ms CreateObjectMapping: 0.456300 ms MarkObjects: 8.130500 ms  DeleteObjects: 0.048500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.499 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.9 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1641.
+Total: 10.009500 ms (FindLiveObjects: 0.413200 ms CreateObjectMapping: 0.127300 ms MarkObjects: 9.418000 ms  DeleteObjects: 0.047100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 985.178436 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(f7b7dac415be55d42bc33ebda0375d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(f7b7dac415be55d42bc33ebda0375d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a97f26d0c9a4307b1e3d19402e2d285') in 0.073165 seconds
+  Import took 0.081032 seconds .
+
