@@ -1629,8 +1629,81 @@ PrefabInstance:
       value: PlayerFox2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: c9b463da1135cec469b0eb6a664550ff, type: 3}
 --- !u!1001 &398372155
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 980401a6cecabd74496eade0074dde3e, type: 3}
+--- !u!4 &145437436 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 980401a6cecabd74496eade0074dde3e, type: 3}
+  m_PrefabInstance: {fileID: 145437435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &145437437 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 980401a6cecabd74496eade0074dde3e, type: 3}
+  m_PrefabInstance: {fileID: 145437435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &145437438
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145437437}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2
+  m_Height: 40
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &155894680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155894681}
+  - component: {fileID: 155894682}
+  m_Layer: 0
+  m_Name: ghettosolution
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155894681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155894680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.357, y: 7.271, z: -4.175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1522089155}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &155894682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155894680}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &211931991
+>>>>>>> parent of 344d476 (Shelves)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1862,7 +1935,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 29b36a6139789124bbeb0d2f7a283dff, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 2
+=======
+      value: 10
+>>>>>>> parent of 344d476 (Shelves)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29b36a6139789124bbeb0d2f7a283dff, type: 3}
       propertyPath: m_LocalScale.x
@@ -1882,7 +1959,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29b36a6139789124bbeb0d2f7a283dff, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: -2.3
+=======
+      value: 7.635
+>>>>>>> parent of 344d476 (Shelves)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29b36a6139789124bbeb0d2f7a283dff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2211,6 +2292,7 @@ CapsuleCollider:
   m_Height: 40
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &542591925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,6 +2483,9 @@ CapsuleCollider:
   m_Center: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 --- !u!1001 &557561332
+=======
+--- !u!1001 &292899510
+>>>>>>> parent of 344d476 (Shelves)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -4324,6 +4409,9 @@ PrefabInstance:
     - target: {fileID: 7783544739221866444, guid: bbaa64ef63633cf43a80210474fb71b8, type: 3}
       propertyPath: m_LocalPosition.z
       value: -9.135
+<<<<<<< HEAD
+>>>>>>> parent of 344d476 (Shelves)
+=======
 >>>>>>> parent of 344d476 (Shelves)
       objectReference: {fileID: 0}
     - target: {fileID: 7783544739221866444, guid: bbaa64ef63633cf43a80210474fb71b8, type: 3}
@@ -4685,6 +4773,7 @@ MeshFilter:
   m_GameObject: {fileID: 1216449295}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1248900810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4720,6 +4809,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1248900812
 BoxCollider:
+=======
+--- !u!1001 &635369884
+PrefabInstance:
+>>>>>>> parent of 344d476 (Shelves)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4876,7 +4969,11 @@ CapsuleCollider:
   m_Height: 40
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &1295569057
+=======
+--- !u!1001 &752844544
+>>>>>>> parent of 344d476 (Shelves)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -14490,7 +14587,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4723827785547564653, guid: f85093a9017a3ae489d279a060752b6f, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 16
+=======
+      value: 8
+>>>>>>> parent of 344d476 (Shelves)
       objectReference: {fileID: 0}
     - target: {fileID: 4723827785547564653, guid: f85093a9017a3ae489d279a060752b6f, type: 3}
       propertyPath: m_LocalScale.x
@@ -14506,15 +14607,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4723827785547564653, guid: f85093a9017a3ae489d279a060752b6f, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 25.67
+=======
+      value: 3.519
+>>>>>>> parent of 344d476 (Shelves)
       objectReference: {fileID: 0}
     - target: {fileID: 4723827785547564653, guid: f85093a9017a3ae489d279a060752b6f, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: 2.98
+=======
+      value: 9.022
+>>>>>>> parent of 344d476 (Shelves)
       objectReference: {fileID: 0}
     - target: {fileID: 4723827785547564653, guid: f85093a9017a3ae489d279a060752b6f, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 28.95
+=======
+      value: -10.594
+>>>>>>> parent of 344d476 (Shelves)
       objectReference: {fileID: 0}
     - target: {fileID: 4723827785547564653, guid: f85093a9017a3ae489d279a060752b6f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14649,6 +14762,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1981897366}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -14731,6 +14845,11 @@ PrefabInstance:
 --- !u!1 &2091057480
 GameObject:
   m_ObjectHideFlags: 0
+=======
+--- !u!1 &2091057480
+GameObject:
+  m_ObjectHideFlags: 0
+>>>>>>> parent of 344d476 (Shelves)
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

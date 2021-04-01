@@ -339,3 +339,19 @@ Received Import Request.
 Start importing Assets/Scenes/Main.unity using Guid(f7b7dac415be55d42bc33ebda0375d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44112d926cff430ea3e48b6aa3c9d77d') in 0.023607 seconds
   Import took 0.054998 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 428.197074 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(f7b7dac415be55d42bc33ebda0375d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(f7b7dac415be55d42bc33ebda0375d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4c4630a571dbbbea3aa47ce492eaaa') in 0.030029 seconds
+  Import took 0.048907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.614760 seconds.
+  path: Assets/Scenes/Chris.unity
+  artifactKey: Guid(3617066399b6a2149a27e5606b953ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chris.unity using Guid(3617066399b6a2149a27e5606b953ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e08893b7b22066dd8031a5fc266a8b') in 0.024875 seconds
+  Import took 0.037578 seconds .
+
