@@ -24,6 +24,11 @@ public class playerMovement : MonoBehaviour
         ground = true;
     }
 
+    /*private void OnCollisionEnter() 
+    {
+        ground = true;
+    }*/
+
     private void OnCollisionExit(Collision collision)
     {
         ground = false;
@@ -32,10 +37,14 @@ public class playerMovement : MonoBehaviour
     
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         CharacterController controller = GetComponent<CharacterController>();
 
+        //new movement
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+        transform.Translate(x * speed * Time.deltaTime, 0, z * speed * Time.deltaTime);
 
 
         if (Input.GetKeyDown(KeyCode.Space) && ground)
@@ -45,6 +54,8 @@ public class playerMovement : MonoBehaviour
             ground = false;
         }
 
+        // old movement
+        /*
         if (Input.GetKey(KeyCode.W))
         {
             Debug.Log("Forward");
@@ -67,6 +78,6 @@ public class playerMovement : MonoBehaviour
         {
             Debug.Log("Right");
             transform.Translate(speed * Vector3.right * Time.deltaTime);
-        }
+        }*/
     }
 }
