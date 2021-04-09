@@ -4,30 +4,32 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-
-    public float speed = 7f;
+    public float speed;
     public Vector3 rSpeed;
-    public float jPower = 2000;
+    public float jPower;
     Vector3 playerV;
     bool ground;
     public GameObject target;
+    private Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
         rSpeed = new Vector3(0, 1, 0);
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     private void OnCollisionStay()
     {
-        ground = true;
+        if (rb.velocity.y < 0) {
+            Vector3 vel = rb.velocity;
+            vel.y = 0;
+            ground = true;
+            Debug.Log("GROUNDED");
+            new WaitForSeconds(1);
+        }
     }
 
-    /*private void OnCollisionEnter() 
-    {
-        ground = true;
-    }*/
 
     private void OnCollisionExit(Collision collision)
     {
@@ -49,8 +51,13 @@ public class playerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && ground)
         {
+            Vector3 jump = new Vector3(0, jPower, 0);
             Debug.Log("Jump");
-            GetComponent<Rigidbody>().AddForce(Vector3.up * jPower);
+            rb.AddForce(jump, ForceMode.Impulse);
+            ground = false;
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
             ground = false;
         }
 

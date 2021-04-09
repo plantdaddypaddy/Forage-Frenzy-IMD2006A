@@ -12,14 +12,14 @@ public class depositDisappear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.LookAt(target.transform);
     }
 
     private void OnTriggerExit(Collider target)
     {
         if (target.tag == "Player")
         {
-            Debug.Log("Poop");
+            Debug.Log("Distance");
             target2.gameObject.SetActive(true);
         }
     }
@@ -28,7 +28,7 @@ public class depositDisappear : MonoBehaviour
     {
         if (target.tag == "Player")
         {
-            Debug.Log("Poop2");
+            Debug.Log("Distance2");
             target2.gameObject.SetActive(false);
         }
     }
