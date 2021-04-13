@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 1641865945699506841}
   - component: {fileID: 2150702367627264968}
   m_Layer: 0
-  m_Name: Guard
+  m_Name: Final Guard
   m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
